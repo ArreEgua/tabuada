@@ -61,7 +61,7 @@ def app():
             parabens.congrats()
             st.balloons()
         else:
-            st.title('Vamos estudar Cecilia?')
+            st.title('Vamos estudar?')
             st.subheader('Responda abaixo')
             pergunta = str(ss.lista[ss.pos][0]) + ' * ' + \
                 str(ss.lista[ss.pos][1]) + ' = ?'
